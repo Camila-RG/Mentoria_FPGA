@@ -13,7 +13,7 @@ entity multiplicador_pares is
     );
 end multiplicador_pares;
 
--- Arquitetura Paralela: agora chamada de VersaoA
+-- Arquitetura Paralela
 architecture VersaoA of multiplicador_pares is
     signal s_saidas_reg : t_integer_array(0 to 3);
 begin
@@ -33,7 +33,7 @@ begin
     saidas <= s_saidas_reg;
 end VersaoA;
 
--- Arquitetura Sequencial: agora chamada de VersaoB
+-- Arquitetura Sequencial
 architecture VersaoB of multiplicador_pares is
     type t_estado is (IDLE, COMPUTE, DONE);
     signal estado : t_estado;
