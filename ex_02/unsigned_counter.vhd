@@ -1,8 +1,7 @@
 -- Entidade para o contador de 8 bits com tipo UNSIGNED
 library ieee;
 use ieee.std_logic_1164.all;
-use ieee.numeric_std.all; -- Necessário para tipos SIGNED e UNSIGNED
-
+use ieee.numeric_std.all;
 entity unsigned_counter is
     port (
         clk   : in  std_logic;
