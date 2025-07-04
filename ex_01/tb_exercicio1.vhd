@@ -2,7 +2,6 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity tb_exercicio1 is
--- Entidade vazia, pois é um testbench
 end tb_exercicio1;
 
 architecture Behavioral of tb_exercicio1 is
